@@ -1,0 +1,58 @@
+﻿[
+  {
+    "scenario_id": "S01",
+    "name": "S01 — Normal Warehouse",
+    "description": "3 AMRs operating under normal traffic conditions without blocked aisles.",
+    "robot_count": 3,
+    "task_count": 3
+  },
+  {
+    "scenario_id": "S02",
+    "name": "S02 — Overlapping Paths",
+    "description": "3 AMRs with crossing trajectories across central expressways.",
+    "robot_count": 3,
+    "task_count": 3
+  },
+  {
+    "scenario_id": "S03",
+    "name": "S03 — Chokepoint",
+    "description": "4 AMRs competing for narrow 1-lane central corridor.",
+    "robot_count": 4,
+    "task_count": 4
+  },
+  {
+    "scenario_id": "S04",
+    "name": "S04 — Blocked Aisle",
+    "description": "4 AMRs with sudden aisle blockage at step 70 triggering BLOCK_REPORT.",
+    "robot_count": 4,
+    "task_count": 4
+  },
+  {
+    "scenario_id": "S05",
+    "name": "S05 — Multiple Blockages",
+    "description": "5 AMRs facing two sequential aisle blockages.",
+    "robot_count": 5,
+    "task_count": 5
+  },
+  {
+    "scenario_id": "S06",
+    "name": "S06 — Robot Failure",
+    "description": "4 AMRs where AMR-03 suffers hardware failure at step 75.",
+    "robot_count": 4,
+    "task_count": 4
+  },
+  {
+    "scenario_id": "S07",
+    "name": "S07 — Network Degradation",
+    "description": "4 AMRs experiencing simulated Wi-Fi RF blackout at step 75.",
+    "robot_count": 4,
+    "task_count": 4
+  },
+  {
+    "scenario_id": "S08",
+    "name": "S08 — High Traffic",
+    "description": "6 AMRs with 8 high-density concurrent tasks.",
+    "robot_count": 6,
+    "task_count": 8
+  }
+]
